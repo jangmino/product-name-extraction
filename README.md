@@ -1,6 +1,14 @@
 # Developing a Model for Extracting Actual Product Names from Order Item Descriptions Using Generative Language Models
 
+## 0. Prerequisites
 
+Following environment is assumed.
+
+python 3.10, torch 2.1, cuda 12.1
+
+```
+pip install transformers datasets seqeval wandb
+```
 
 ## 1. Build a JSONL file for OpenAI API
 
